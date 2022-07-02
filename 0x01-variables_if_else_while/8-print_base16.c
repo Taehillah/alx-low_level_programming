@@ -15,7 +15,7 @@ int main(void)
 	do
 	{
 	putchar((num % 10) + '0');
-	num++
+	num++;
 	}
 
 	while (num < 10); 
