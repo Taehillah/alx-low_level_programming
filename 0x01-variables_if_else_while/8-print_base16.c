@@ -12,11 +12,11 @@ int main(void)
 
 	num = 0;
 
-	do{
+	do
+	{
 	putchar((num % 10) + '0');
 	num++;
 	}
-
 	while (num < 10);
 	for (letter = 'a'; letter <= 'f'; letter++)
 		putchar(letter);
@@ -25,4 +25,3 @@ int main(void)
 
 	return (0);
 }
-
