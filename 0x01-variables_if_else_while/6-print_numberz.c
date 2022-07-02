@@ -5,7 +5,9 @@
  *        only using putchar but  without char variables.
  *
  * Return: 0.
+ *
  */
+
 int main(void)
 {
 	int num;
