@@ -5,13 +5,13 @@
  */
 int main(void)
 {
-	char c = 'p', "\n";
+	char c = 'p';
 	int i;
 
 	for (i=0; i<9; i++)
 	{
-		_putchar(c);
+		putchar(c);
 	}
-	_putchar('\n');
+	putchar('\n');
 		return 0;
 }
