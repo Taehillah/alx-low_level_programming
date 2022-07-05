@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	char c[] = 'p';
+	char c[] = 'p,w';
 	int i;
 
 	for (i=0; i<9; i++)
