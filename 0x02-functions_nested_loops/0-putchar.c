@@ -1,14 +1,19 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * Write a program that prints _putchar, followed by a new line.
  *
  */
-int _isupper(int c)
+int _putchar(void)
 {
-	if (c >= 'A' && c <= 'Z')
-		return (1);
-
-	else
-		return (0);
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
+	return 0;
 }
