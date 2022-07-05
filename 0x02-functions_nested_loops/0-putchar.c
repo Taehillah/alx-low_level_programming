@@ -1,19 +1,18 @@
-#include <stdio.h>
+#include <stdoi.h>
 #include "main.h"
 /**
  * Write a program that prints _putchar, followed by a new line.
  *
  */
-int _putchar(void)
+int main(void)
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
-	return 0;
+	char c[] = '_putchar';
+	int i;
+
+	for (i=0; i<9, i++)
+	{
+		_putchar(c[i]);
+	}
+	_putchar('\n');
+		return 0;
 }
