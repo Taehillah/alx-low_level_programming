@@ -5,13 +5,11 @@
  */
 int main(void)
 {
+char _putchar ()
+{
 	char c = 'p';
-	int i;
-
-	for (i=0; i<9; i++)
-	{
 		putchar(c);
-	}
 	putchar('\n');
+}
 		return 0;
 }
