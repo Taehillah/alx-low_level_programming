@@ -10,10 +10,10 @@ int main(void)
 
         while (*putter)
         {
-                _putchar(*putter);
+                putchar(*putter);
                 putter++;
         }
-        _putchar("\n");
+        putchar("\n");
 
 return 0;
 }
