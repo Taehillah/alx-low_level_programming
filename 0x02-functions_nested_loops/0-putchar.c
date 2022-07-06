@@ -12,8 +12,6 @@ int main(void)
         {
                 putchar(*putter);
                 putter++;
-        }
-      
-
+}
 return 0;
 }
