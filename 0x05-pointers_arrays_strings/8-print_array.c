@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio>
+#include <stdio.h>
 /**
  * print_array - is a function that results n elements of an array
  * @a: array name
