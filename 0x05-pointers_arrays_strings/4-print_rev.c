@@ -2,16 +2,16 @@
 #include <stdio.h>
 /**
  * print_rev - results in a string reverse.
- * @s: is the string that needs to be printed.
+ * @str: is the string that needs to be printed.
  * @len++ is the increment of len
- * printing @s to its size
+ * printing @str to its size
  */
-void print_rev(char *s)
+void print_rev(char *str)
 {
 int len = 0, index;
-while (s[index++])
+while (str[index++])
 len++;
 for (index = len - 1; index >= 0; index--)
-putchar(s[index]);
+putchar(str[index]);
 putchar('\n');
 }
