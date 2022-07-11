@@ -6,12 +6,19 @@
  * @len++ is the increment of len
  * printing @str to its size
  */
-void print_rev(char *str)
+void print_rev(char *s)
 {
-int len = 0, index;
-while (str[index++])
-len++;
-for (index = len - 1; index >= 0; index--)
-putchar(str[index]);
-putchar('\n');
+	int fcounter = 0;
+	int i, n;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		fcounter++;
+	}
+
+	for (n = (fcounter - 1); n >= 0; n--)
+	{
+		_putchar(s[n]);
+	}
+	_putchar('\n');
 }
