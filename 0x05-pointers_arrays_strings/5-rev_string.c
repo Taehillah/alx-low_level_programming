@@ -5,7 +5,7 @@
  * @s: The string to be reversed.
  * @index -- decrements
  * @index ++ increments
- * @len: the length of the string
+ * len the length of the string
  */
 void rev_string(char *s)
 {
