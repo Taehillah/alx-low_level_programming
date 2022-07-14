@@ -1,10 +1,10 @@
 #include <string.h>
+#include <stdio.h>
 /**
  * rot13 - encodes a string
  * @s: string
  * Return: string `s` rotated
  */
-
 char *rot13(char *s)
 {
 int i;
