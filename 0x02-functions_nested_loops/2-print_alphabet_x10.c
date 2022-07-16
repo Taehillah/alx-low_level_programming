@@ -17,5 +17,5 @@ for (letter = 'a'; letter <= 'z'; letter++)
 putchar(letter);
 putchar('\n');
 }
-return void print_alphabet_x10(void);
 }
+void print_alphabet_x10(void);
