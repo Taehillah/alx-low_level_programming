@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include <stdio.h>
 /**
- * writes the character c to stdout
+ * main - prints putchar
  * Return: Always 0
  */
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
 _putchar('_');
 _putchar('p');
 _putchar('u');
-_putchar('t');	
+_putchar('t');
 _putchar('c');
 _putchar('h');
 _putchar('a');
