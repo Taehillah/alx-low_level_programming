@@ -1,31 +1,14 @@
 #include "main.h"
+#include <unistd.h>
 #include <stdio.h>
-/**
-* Write a program that prints _putchar, followed by a new line.
-* main is the Entry function
-* Return: Always 0 when successful
-*/
-int main(void) /*main function return an int 0 success 1 for opp*/
-{
-<<<<<<< HEAD
-	char *putter= "_putchar";
 
-	while (*putter)
-	{
-		_putchar(*putter);
-		putter++;
-	}
-	_putchar("\n");
-	
-return 0;
-}	
-=======
-char *putter = "_putchar\n";
-while (*putter)
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ * Return: On success 1.
+ * On error, -1 is returned, and error is set.
+ */
+int _putchar(char c)
 {
-putchar(*putter);
-putter++;
+return (write(1, &c, 1));
 }
-return (0);
-}
->>>>>>> ac5df89c028f705ebe18bf4a4b7fb46d3acf8163
