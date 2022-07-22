@@ -14,5 +14,5 @@ return (-1);
 if (!y)
 return (1);
 pw = _pow_recursion(x, y - 1);
-return (pw * x);
+return (pw *x);
 }
