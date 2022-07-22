@@ -1,13 +1,18 @@
 #include "main.h"
 /**
- * _islower - a function that checks for lowercase character
- * @c: single letter input
- * Return: 1 if int c is lowercase, 0 if otherwise
+ * factorial - Returns the factorial of a given number.
+ * @n: The number to find the factorial of.
+ *
+ * Return: If n > 0 - the factorial of n.
+ *         If n < 0 - 1 to indicate an error.
  */
-int _islower(int c)
+int factorial(int n)
 {
-if (c >= 'a' && c <= 'z')
+int result = n;
+if (n < 0)
+return (-1);
+else if (n >= 0 && n <= 1)
 return (1);
-else
-return (0);
+result *= factorial(n - 1);
+return (result);
 }
