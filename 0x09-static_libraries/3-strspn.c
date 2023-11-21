@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _strspn -> Calculating langth of prefix.
+ * _strspn -> Calculates the length of prefix.
  * @s: main C strinh to be snaccened.
- * @accept: strint to be marched with s.
- * Return: b with number of scanned prefix.
+ * @accept: string to be matched with s.
+ * Return: b no of scanned prefix.
  */
 unsigned int _strspn(char *s, char *accept)
 {
