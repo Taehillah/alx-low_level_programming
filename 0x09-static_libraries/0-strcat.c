@@ -4,15 +4,14 @@
 
 /**
  * _strcat -> A function that concatenates two strings.
- * @src: First sting to be concanated.
- * @dest: Second string to be concanated.
- * Return: concanated string called dest
+ * @src: First string to be added.
+ * @dest: Second string to be added.
+ * Return: add string
  */
 
 char *_strcat(char *dest, char *src)
 {
 	int i, l;
-
 	i = 0;
 	l = 0;
 	while (dest[i++])
