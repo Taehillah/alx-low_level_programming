@@ -3,9 +3,9 @@
 
 /**
  *_strstr -> a function that locates a substring.
- *@haystack: A string to be searched.
+ *@haystack: String to be searched.
  *@needle: The substring to be located.
- *Return: If the strin @needle is located -
+ *Return: If the string @needle is located -
  *return a pointer to the begganing of the located substring.
  *If not located - return NULL
  */
