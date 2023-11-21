@@ -2,10 +2,10 @@
 #include <string.h>
 #include "main.h"
 /**
- * _strncpy -> coppies one string to another.
- * @dest: A string to be coppied to.
- * @src: A string that is coppird to.
- * @n: The Number of bytes to be coppied.
+ * _strncpy -> copies one string to another.
+ * @dest: A string to be copied to.
+ * @src: A string that is copird to.
+ * @n: The no of bytes to be copied.
  * Return: dest with a coppy
  */
 char *_strncpy(char *dest, char *src, int n)
