@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* _atoi -> Funtion that converts the string to a number.
+* _atoi -> Funtion to converts the string to a number.
 * @s: The string to be converted.
 *
 * Return: The signed intreger representation of a string.
