@@ -4,7 +4,7 @@
  * _strpbrk -> searches a string for any of a set of bytes.
  * @s: string that is searched for occurance of character at accept.
  * @accept: contains bytes we are searching for @s.
- * Return: return a pointer of byte @s that matches accept,
+ * Return: returns a pointer of byte @s that matches accept,
  * or nul, if no match.
  */
 
