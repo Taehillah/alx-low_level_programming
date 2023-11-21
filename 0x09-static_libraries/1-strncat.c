@@ -4,10 +4,10 @@
 
 /**
  * _strncat -> function that concatenates two strings.
- * @dest: First string to be concanated.
- * @src: Second string to be concanated.
- * @n: Number of charactars to be concanted.
- * Return: concanated dest.
+ * @dest: First string to be added.
+ * @src: Second string to be added.
+ * @n: No of charactars to be concanted.
+ * Return: added dest.
  */
 char *_strncat(char *dest, char *src, int n)
 {
