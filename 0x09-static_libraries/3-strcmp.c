@@ -3,8 +3,8 @@
 #include "main.h"
 /**
  * _strcmp -> Compares two strings.
- * @s1: first string to be compared.
- * @s2: second string to be compared.
+ * @s1: 1st string to be compared.
+ * @s2: 2nd string to be compared.
  * Return: The result of thee comparison.
  */
 
